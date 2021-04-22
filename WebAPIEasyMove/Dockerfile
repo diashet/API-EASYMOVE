@@ -6,10 +6,10 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["WebAPIEasyMove/WebAPIEasyMove.csproj", "WebAPIEasyMove/"]
-RUN dotnet restore "WebAPIEasyMove/WebAPIEasyMove.csproj"
+COPY *.csproj ./
+RUN dotnet restore "WebAPIEasyMove.csproj"
 COPY . .
-WORKDIR "/src/WebAPIEasyMove"
+WORKDIR "/src"
 RUN dotnet build "WebAPIEasyMove.csproj" -c Release -o /app/build
 
 FROM build AS publish
