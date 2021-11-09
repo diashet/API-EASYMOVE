@@ -14,6 +14,7 @@ namespace WebAPIEasyMove.Repository.Context
 
         public DbSet<Mudanca> Mudanca { get; set; }
         public DbSet<Pagamento> Pagamento { get; set; }
+        public DbSet<Empresas> Empresas { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
