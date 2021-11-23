@@ -11,31 +11,20 @@ namespace WebAPIEasyMove.Models
     public class Mudanca
     {
         [Key]
-        [Column("id_mudanca")]
+        [Column("ID_MUDANCA")]
         public int IdMudanca { get; set; }
 
-        [Column("nm_empresa")]
+        [Column("NM_EMPRESA")]
         public String nmEmpresa { get; set; }
 
-        [Column("tipo_caminhao")]
+        [Column("TIPO_CAMINHAO")]
         public String tpCaminhao { get; set; }
 
-        [Column("logradouro")]
+        [Column("LOGRADOURO")]
         public String logradouro { get; set; }
 
-        [Column("numero")]
-        public long numero { get; set; }
+        [Column("NUMERO")]
+        public int numero { get; set; }
 
-        public Mudanca()
-        {
-        }
-        public Mudanca(int idMudanca, string nmEmpresa, string tpCaminhao, string logradouro, long numero)
-        {
-            IdMudanca = idMudanca;
-            this.nmEmpresa = nmEmpresa;
-            this.tpCaminhao = tpCaminhao;
-            this.logradouro = logradouro;
-            this.numero = numero;
-        }
     }
 }
