@@ -25,18 +25,5 @@ namespace WebAPIEasyMove.Models
 
         [Column("NUMERO")]
         public int numero { get; set; }
-        
-        public Mudanca()
-        {
-        }
-
-        public Mudanca(int IdMudanca, string nmEmpresa, string tpCaminhao, string logradouro, string numero)
-        {
-            idmudanca = IdMudanca;
-            nmempresa = nmEmpresa;
-            tpcaminhao = tpCaminhao;
-            Logradouro = logradouro;
-            Numero = numero;
-        }
     }
 }

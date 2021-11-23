@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\WebAPIEasyMove",
-    "\\WebAPIEasyMove\\Controllers"
+    "\\WebAPIEasyMove\\Controllers",
+    "\\WebAPIEasyMove\\Models"
   ],
-  "SelectedNode": "\\WebAPIEasyMove\\Controllers\\EmpresasController.cs",
+  "SelectedNode": "\\WebAPIEasyMove\\Models\\Pagamento.cs",
   "PreviewInSolutionExplorer": false
 }
