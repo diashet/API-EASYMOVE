@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a870c05f-2949-4281-9c6b-46980183e7be": {
+      "ProjectGuid": "a870c05f-2949-4281-9c6b-46980183e7be",
+      "DisplayName": "WebAPIEasyMove",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

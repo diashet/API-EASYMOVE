@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1QqbIB3xaxjGr5ASl0qCrkT01ryWZ1yJapFXr3JuZ6sSTJ8uZiF9Z8wIS8NQQCcGb4Jd/URxBfw3wznWkfmDw==",
+  "dgSpecHash": "PZX4C80YPNEAgFwSZIeOvepsA2x2Ig4Mi28Hcpv2HWvWbFamv9VQZ673wb/fQM1NXgnAKP8PpcN806tdTNDvBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\diash\\source\\repos\\WebAPIEasyMove\\WebAPIEasyMove\\WebAPIEasyMove.csproj",
+  "projectFilePath": "C:\\Users\\diash\\Source\\Repos\\API-EASYMOVE\\WebAPIEasyMove\\WebAPIEasyMove.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diash\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.1\\microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
     "C:\\Users\\diash\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.1\\microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",
@@ -38,7 +38,11 @@
     "C:\\Users\\diash\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\diash\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\diash\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512",
-    "C:\\Users\\diash\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\diash\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\diash\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512",
+    "C:\\Users\\diash\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\diash\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\diash\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

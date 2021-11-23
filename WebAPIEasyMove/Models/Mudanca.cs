@@ -11,44 +11,31 @@ namespace WebAPIEasyMove.Models
     public class Mudanca
     {
         [Key]
-        [Column("IDMUDANCA")]
+        [Column("id_mudanca")]
         public int IdMudanca { get; set; }
 
-        [Column("TICKETNUMBER")]
-        public int TicketNumber { get; set; }
+        [Column("nm_empresa")]
+        public String nmEmpresa { get; set; }
 
-        [Column("NOMEUSUARIO")]
-        public String NomeUsuario { get; set; }
+        [Column("tipo_caminhao")]
+        public String tpCaminhao { get; set; }
 
-        [Column("NOMEEMPRESA")]
-        public String NomeEmpresa { get; set; }
+        [Column("logradouro")]
+        public String logradouro { get; set; }
 
-        [Column("CNPJ")]
-        public long CNPJ { get; set; }
-
-        [Column("ROTA")]
-        public String Rota { get; set; }
-
-        [Column("AGENDAMENTO")]
-        public String Agendamento { get; set; }
-
-        [Column("VALOR")]
-        public int Valor { get; set; }
+        [Column("numero")]
+        public long numero { get; set; }
 
         public Mudanca()
         {
         }
-
-        public Mudanca(int idMudanca, int ticketNumber, string nomeUsuario, string nomeEmpresa, int cNPJ, string rota, string agendamento, int valor)
+        public Mudanca(int idMudanca, string nmEmpresa, string tpCaminhao, string logradouro, long numero)
         {
             IdMudanca = idMudanca;
-            TicketNumber = ticketNumber;
-            NomeUsuario = nomeUsuario;
-            NomeEmpresa = nomeEmpresa;
-            CNPJ = cNPJ;
-            Rota = rota;
-            Agendamento = agendamento;
-            Valor = valor;
+            this.nmEmpresa = nmEmpresa;
+            this.tpCaminhao = tpCaminhao;
+            this.logradouro = logradouro;
+            this.numero = numero;
         }
     }
 }
